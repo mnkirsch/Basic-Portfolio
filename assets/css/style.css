@@ -1,3 +1,15 @@
+.container {
+    justify-content: center;
+    background: whitesmoke;
+}
+
+head {
+    width: 960px;
+}
+
+body {
+    width: 960px;
+}
 
 
 ul {
@@ -6,7 +18,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
-    border: #cccccc;
+    border: 20px #cccccc;
+    height: 80px;
 }
 
 li {
@@ -19,6 +32,7 @@ li a {
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    margin-top: 27px;
     
 }
 
@@ -26,14 +40,52 @@ li a:hover {
     
 }
 
-p {
-    align-content: center;
-    text-align: center;
-    width: 960px;
-    border-color: black;
-    align-items: center;
-    background: #777777;
-    justify-content: center;
-    height: 960px;
+h1 {
+    font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
+
 }
 
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    overflow: auto;
+    color: black;
+    font: arial;
+    align-content: center;
+    width: 960px;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background: #ffffff;
+    word-wrap: break-word;
+}
+
+.header {
+    font: #ffffff;
+}
+
+#name {
+    display: inline;
+    float: left;
+    width: 220px;
+    height: auto;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: #cccccc;
+    border-bottom-width: 20px;
+}
+
+#menu {
+    border-bottom: 2px solid #cccccc;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
