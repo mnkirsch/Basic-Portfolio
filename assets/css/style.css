@@ -1,6 +1,7 @@
 .container {
     justify-content: center;
-    background: whitesmoke;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 head {
@@ -9,6 +10,7 @@ head {
 
 body {
     width: 960px;
+    background: #dddddd;
 }
 
 
@@ -36,10 +38,6 @@ li a {
     
 }
 
-li a:hover {
-    
-}
-
 h1 {
     font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
 
@@ -53,9 +51,9 @@ h2 {
 p {
     overflow: auto;
     color: black;
-    font: arial;
+    font: 16px;
+    font-family: Arial, Helvetica, sans-serif;
     align-content: center;
-    width: 960px;
     align-items: center;
     justify-content: center;
     height: auto;
@@ -75,12 +73,12 @@ p {
     background: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    border-bottom: #cccccc;
     border-bottom-width: 20px;
 }
 
 #menu {
     border-bottom: 2px solid #cccccc;
+    font-family: georgia, Georgia, 'Times New Roman', Times, serif;
 }
 
 img {
@@ -88,4 +86,34 @@ img {
     height: auto;
     overflow: hidden;
     float: left;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
 }
+
+#words {
+    margin-left: 20px;
+    height: 900px;
+    line-height: 150%;
+    text-indent: 5%;
+    background: #ffffff;
+}
+
+.contact {
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #666666;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 5px solid #4aaaa5;
+    font-size: 10px;
+ }
