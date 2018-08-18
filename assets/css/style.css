@@ -117,3 +117,29 @@ img {
     border-top: 5px solid #4aaaa5;
     font-size: 10px;
  }
+
+ #1 {
+    margin: 10px;
+    float: left;
+ }
+
+ #2 {
+    margin: 10px;
+ }
+
+ #3 {
+    margin: 10px;
+    float: left;
+    top: 50;
+    
+ }
+
+ #4 {
+    margin: 10px;
+    float: left;
+ }
+
+ #5 {
+    margin: 10px;
+    float: left;
+ }
